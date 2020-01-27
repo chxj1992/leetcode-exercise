@@ -21,6 +21,7 @@ ID   | 题目                                           |  难度  |  标记
  24  |  [两两交换链表中的节点](24_swap_nodes_in_pairs)   | 简单   |  △
  141 |  [环形链表](141_linked_list_cycle)              | 简单   |  △
  142 |  [环形链表 II](142_linked_list_cycle_2)         | 中等   |  △
+ 25 |  [K 个一组翻转链表](25_reverse_nodes_in_k_group)  | 困难   |  △
  
 
  
