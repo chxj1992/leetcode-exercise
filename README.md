@@ -16,9 +16,11 @@ ID   | 题目                                         |  难度  |  标记
 ### 链表
 
 ID   | 题目                                           |  难度  |  标记 
---   |--                                             |--     |--
- 206 |  [反转链表](206_reverse_linked_list)           | 简单   |  △
- 24  |  [两两交换链表中的节点](24_swap_nodes_in_pairs)  | 简单   |  △
+--   |--                                              |--     |--
+ 206 |  [反转链表](206_reverse_linked_list)            | 简单   |  △
+ 24  |  [两两交换链表中的节点](24_swap_nodes_in_pairs)   | 简单   |  △
+ 141 |  [环形链表](141_linked_list_cycle)              | 简单   |  △
+ 142 |  [环形链表 II](142_linked_list_cycle_2)         | 中等   |  △
  
 
  
