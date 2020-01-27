@@ -7,33 +7,27 @@ class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         """
         Time: O(n^2)
-        Space: O(1)
+        Space: O(n)
         """
-        res = []
-        n = len(nums)
+        if len(nums) < 3:
+            return []
         nums.sort()
+        target_hash = {-x: i for i, x in enumerate(nums)}
+        res = []
         res_hash = {}
-        for i in range(n):
-            if nums[i] > 0:
-                return res
-            if i > 0 and nums[i] == nums[i - 1]:
+        for i, first in enumerate(nums):
+            if i > 0 and first == nums[i - 1]:
                 continue
-            left = i + 1
-            right = n - 1
-            while right > left:
-                if nums[i] + nums[left] + nums[right] == 0:
-                    row = [nums[i], nums[left], nums[right]]
-                    left = left + 1
-                    right = right - 1
-                    key = ",".join([str(x) for x in row])
-                    if key in res_hash:
+            for j, second in enumerate(nums[i + 1:]):
+                if first + second in target_hash:
+                    target_index = target_hash[first + second]
+                    if target_index == i or target_index == i + j + 1:
                         continue
-                    res_hash[key] = True
-                    res.append(row)
-                elif nums[i] + nums[left] + nums[right] > 0:
-                    right = right - 1
-                elif nums[i] + nums[left] + nums[right] < 0:
-                    left = left + 1
+                    row = sorted([first, second, nums[target_index]])
+                    key = ",".join([str(x) for x in row])
+                    if key not in res_hash:
+                        res.append(row)
+                        res_hash[key] = True
         return res
 
 
@@ -46,6 +40,15 @@ class Test(unittest.TestCase):
             [-1, 0, 1],
             [-1, -1, 2]
         ]
+        actual = s.threeSum(nums)
+        self.assertCountEqual(expected, actual)
+        for i in expected:
+            self.assertIn(i, expected)
+
+    def test4(self):
+        s = Solution()
+        nums = [1, 2, -2, -1]
+        expected = []
         actual = s.threeSum(nums)
         self.assertCountEqual(expected, actual)
         for i in expected:
