@@ -11,6 +11,10 @@ ID   | 题目                                         |  难度  |  标记
 283  | [移动零](283_move_zeroes)                     | 简单   |  △
 70   | [爬楼梯](70_climbing_stairs)                  | 简单   |  △
 15   | [三数之和](15_3sum)                           | 中等   |  △
+26   |  [删除排序数组中的重复项](26_remove_duplicates_from_sorted_array) | 简单   |  △
+189  |  [旋转数组](189_rotate_array)                    | 简单   |  △
+21   |  [合并两个有序链表](21_merge_two_sorted_lists)    | 简单   |  △
+ 
 
 
 ### 链表
@@ -21,8 +25,6 @@ ID   | 题目                                           |  难度  |  标记
  24  |  [两两交换链表中的节点](24_swap_nodes_in_pairs)   | 简单   |  △
  141 |  [环形链表](141_linked_list_cycle)              | 简单   |  △
  142 |  [环形链表 II](142_linked_list_cycle_2)         | 中等   |  △
- 25 |  [K 个一组翻转链表](25_reverse_nodes_in_k_group)  | 困难   |  △
+ 25  |  [K 个一组翻转链表](25_reverse_nodes_in_k_group) | 困难   |  △
  
-
  
-    
