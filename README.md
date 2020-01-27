@@ -14,6 +14,7 @@ ID   | 题目                                         |  难度  |  标记
 26   |  [删除排序数组中的重复项](26_remove_duplicates_from_sorted_array) | 简单   |  △
 189  |  [旋转数组](189_rotate_array)                    | 简单   |  △
 26   |  [合并两个有序链表](26_remove_duplicates_from_sorted_array) | 简单   |  △
+88   |  [合并两个有序数组](88_merge_sorted_array)       | 简单   |  △
 
 
 ### 链表
