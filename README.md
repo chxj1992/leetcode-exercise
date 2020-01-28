@@ -11,10 +11,11 @@ ID   | 题目                                         |  难度  |  标记
 283  | [移动零](283_move_zeroes)                     | 简单   |  △
 70   | [爬楼梯](70_climbing_stairs)                  | 简单   |  △
 15   | [三数之和](15_3sum)                           | 中等   |  △
-26   |  [删除排序数组中的重复项](26_remove_duplicates_from_sorted_array) | 简单   |  △
-189  |  [旋转数组](189_rotate_array)                    | 简单   |  △
-26   |  [合并两个有序链表](26_remove_duplicates_from_sorted_array) | 简单   |  △
-88   |  [合并两个有序数组](88_merge_sorted_array)       | 简单   |  △
+26   | [删除排序数组中的重复项](26_remove_duplicates_from_sorted_array) | 简单   |  △
+189  | [旋转数组](189_rotate_array)                    | 简单   |  △
+26   | [合并两个有序链表](26_remove_duplicates_from_sorted_array) | 简单   |  △
+88   | [合并两个有序数组](88_merge_sorted_array)       | 简单   |  △
+1    | [两数之和](1_two_sum)                          | 简单   |  △
 
 
 ### 链表
