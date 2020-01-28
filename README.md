@@ -16,6 +16,7 @@ ID   | 题目                                         |  难度  |  标记
 26   | [合并两个有序链表](26_remove_duplicates_from_sorted_array) | 简单   |  △
 88   | [合并两个有序数组](88_merge_sorted_array)       | 简单   |  △
 1    | [两数之和](1_two_sum)                          | 简单   |  △
+66   | [加一](66_plus_one)                           | 简单   |  △
 
 
 ### 链表
