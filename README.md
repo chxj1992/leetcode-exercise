@@ -55,4 +55,5 @@ ID   | 题目                                           |  难度  |  标记
 
 ID   | 题目                                           |  难度  |  标记 
 --   |--                                              |--     |--
-94   | [二叉树的中序遍历](94_binary_tree_inorder_traversal) | 中等   |  △
+94   | [二叉树的中序遍历](94_binary_tree_inorder_traversal)  | 中等   |  △
+144  | [二叉树的前序遍历](94_binary_tree_preorder_traversal) | 中等   |  △
