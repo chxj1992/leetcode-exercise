@@ -37,6 +37,7 @@ ID   | 题目                                           |  难度  |  标记
 --   |--                                              |--     |--
 155  |  [最小栈](155_min_stack)                        | 简单   |  △
 20   |  [有效的括号](20_valid_parentheses)              | 简单   |  △
-84   |  [柱状图中最大的矩形](84_largest_rectangle_in_histogram)   | 简单   |  △
-42   |  [接雨水](42_trapping_rain_water)               | 简单   |  △
-239  |  [滑动窗口最大值](239_sliding_window_maximum)    | 简单   |  △
+84   |  [柱状图中最大的矩形](84_largest_rectangle_in_histogram)   | 困难   |  △
+42   |  [接雨水](42_trapping_rain_water)               | 困难   |  △
+239  |  [滑动窗口最大值](239_sliding_window_maximum)    | 困难   |  △
+641  |  [设计循环双端队列](design_circular_deque)    | 中等   |  △
