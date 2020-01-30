@@ -56,4 +56,6 @@ ID   | 题目                                           |  难度  |  标记
 ID   | 题目                                           |  难度  |  标记 
 --   |--                                              |--     |--
 94   | [二叉树的中序遍历](94_binary_tree_inorder_traversal)  | 中等   |  △
-144  | [二叉树的前序遍历](94_binary_tree_preorder_traversal) | 中等   |  △
+144  | [二叉树的前序遍历](144_binary_tree_preorder_traversal) | 中等   |  △
+589  | [N叉树的前序遍历](589_n_ary_tree_preorder_traversal) | 中等   |  △
+590  | [N叉树的后序遍历](590_n_ary_tree_postorder_traversal) | 中等   |  △

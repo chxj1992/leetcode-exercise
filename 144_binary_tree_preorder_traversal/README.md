@@ -5,8 +5,9 @@ https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
 
 #### 解法  
 
-* [递归](_1.py)
-* [辅助栈](_2.py)
+* [递归法](_1.py)
+* [辅助栈法](_2.py)
+* [辅助栈法(2)](_3.py)
 
 
 
