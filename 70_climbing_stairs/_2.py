@@ -8,15 +8,13 @@ class Solution:
         Time: O(n)
         Space: O(1)
         """
-        if n <= 2:
-            return n
-
-        res, prev2, prev1 = 0, 1, 2
-        for i in range(2, n):
-            res = prev1 + prev2
-            prev2 = prev1
-            prev1 = res
-        return res
+        curr_step = 1
+        next_step = 2
+        for i in range(1, n):
+            tmp = curr_step
+            curr_step = next_step
+            next_step = tmp + curr_step
+        return curr_step
 
 
 class Test(unittest.TestCase):
