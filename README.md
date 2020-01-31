@@ -66,4 +66,5 @@ ID   | 题目                                           |  难度  |  标记
 ### 递归
 ID   | 题目                                           |  难度  |  标记 
 --   |--                                              |--     |--
-94   | [二叉树的中序遍历](94_binary_tree_inorder_traversal)  | 中等   |  △
+22   | [括号生成](22_generate_parentheses)             | 中等   |  △
+226  | [翻转二叉树](226_invert_binary_tree)            | 简单   |  △
