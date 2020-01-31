@@ -17,10 +17,7 @@ class Solution:
         """
         if root is None:
             return []
-        res = [root.val]
-        res += self.preorderTraversal(root.left)
-        res += self.preorderTraversal(root.right)
-        return res
+        return [root.val] + self.preorderTraversal(root.left) + self.preorderTraversal(root.right)
 
 
 class Test(unittest.TestCase):

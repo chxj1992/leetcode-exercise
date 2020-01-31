@@ -17,10 +17,7 @@ class Solution:
         """
         if root is None:
             return []
-        res = self.inorderTraversal(root.left)
-        res += [root.val]
-        res += self.inorderTraversal(root.right)
-        return res
+        return self.inorderTraversal(root.left) + [root.val] + self.inorderTraversal(root.right)
 
 
 class Test(unittest.TestCase):

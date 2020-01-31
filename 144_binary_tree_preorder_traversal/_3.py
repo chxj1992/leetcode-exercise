@@ -15,15 +15,15 @@ class Solution:
         Time: O(n)
         Space: O(n)
         """
-        stack = [root]
+        stack = []
         res = []
-        while stack:
-            node = stack.pop()
-            res.append(node.val)
-            if node.right is not None:
-                stack.append(node.right)
-            if node.left is not None:
-                stack.append(node.left)
+        while root is not None or stack:
+            while root is not None:
+                stack.append(root)
+                res.append(root.val)
+                root = root.left
+            root = stack.pop()
+            root = root.right
         return res
 
 

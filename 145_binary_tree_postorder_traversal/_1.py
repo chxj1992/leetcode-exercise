@@ -10,22 +10,14 @@ class TreeNode:
 
 
 class Solution:
-    def inorderTraversal(self, root: TreeNode) -> List[int]:
+    def postorderTraversal(self, root: TreeNode) -> List[int]:
         """
         Time: O(n)
         Space: O(n)
         """
-        stack = []
-        res = []
-        curr = root
-        while curr is not None or stack:
-            while curr is not None:
-                stack.append(curr)
-                curr = curr.left
-            curr = stack.pop()
-            res.append(curr.val)
-            curr = curr.right
-        return res
+        if root is None:
+            return []
+        return self.postorderTraversal(root.left) + self.postorderTraversal(root.right) + [root.val]
 
 
 class Test(unittest.TestCase):
@@ -36,7 +28,7 @@ class Test(unittest.TestCase):
         right.left = TreeNode(3)
         tree.right = right
         s = Solution()
-        self.assertEqual([1, 3, 2], s.inorderTraversal(tree))
+        self.assertEqual([3, 2, 1], s.postorderTraversal(tree))
 
 
 if __name__ == '__main__':
