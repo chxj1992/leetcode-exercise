@@ -5,14 +5,14 @@ from typing import List
 class Solution:
 
     def generateParenthesis(self, n: int) -> List[str]:
-        dp = {0: [""], 1: ["()"]}
-        for i in range(2, n + 1):
-            dp[i] = []
-            for j in range(i):
-                for before in dp[j]:
-                    for after in dp[i - 1 - j]:
-                        dp[i].append('(%s)%s' % (before, after))
-        return dp[n]
+        if n == 0:
+            return [""]
+        res = []
+        for i in range(n):
+            for left in self.generateParenthesis(i):
+                for right in self.generateParenthesis(n - i - 1):
+                    res.append('(%s)%s' % (left, right))
+        return res
 
 
 class Test(unittest.TestCase):

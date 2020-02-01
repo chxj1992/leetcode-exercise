@@ -9,7 +9,7 @@ https://leetcode-cn.com/problems/sliding-window-maximum/
 * [双向队列法](_2.py)
 
 
-#### 相关阅读
+#### 分析
 
 关于本题的双向队列解法, 可以参考 leetcode 官方题解中的这两篇:
 
