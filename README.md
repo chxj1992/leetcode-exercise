@@ -67,6 +67,8 @@ ID   | 题目                                           |  难度  |  标记
 ID   | 题目                                           |  难度  |  标记 
 --   |--                                              |--     |--
 22   | [括号生成](22_generate_parentheses)             | 中等   |  △
-226  | [翻转二叉树](226_invert_binary_tree)            | 简单   |  △
 98   | [验证二叉搜索树](98_validate_binary_search_tree) | 中等   |  △
 104  | [二叉树的最大深度](104_maximum_depth_of_binary_tree) | 简单   |  △
+111  | [二叉树的最小深度](111_minimum_depth_of_binary_tree) | 简单   |  △
+226  | [翻转二叉树](226_invert_binary_tree)            | 简单   |  △
+
