@@ -69,6 +69,7 @@ ID   | 题目                                           |  难度  |  标记
 22   | [括号生成](22_generate_parentheses)             | 中等   |  △
 98   | [验证二叉搜索树](98_validate_binary_search_tree) | 中等   |  △
 104  | [二叉树的最大深度](104_maximum_depth_of_binary_tree) | 简单   |  △
+105  | [从前序与中序遍历序列构造二叉树](105_construct_binary_tree_from_preorder_and_inorder_traversal) | 中等   |  △
 111  | [二叉树的最小深度](111_minimum_depth_of_binary_tree) | 简单   |  △
 226  | [翻转二叉树](226_invert_binary_tree)            | 简单   |  △
 263  | [二叉树的最近公共祖先](236_lowest_common_ancestor_of_a_binary_tree) | 中等   |  △
