@@ -69,8 +69,9 @@ ID   | 题目                                           |  难度  |  标记
 22   | [括号生成](22_generate_parentheses)             | 中等   |  △
 46   | [全排列](46_permutations)                       | 中等   |  △
 47   | [全排列 II](47_permutations_2)                  | 中等   |  △
-50   | [Pow(x, n)](50_powx_n)                          | 中等   |  △
+50   | [Pow(x, n)](50_powx_n)                         | 中等   |  △
 77   | [组合](77_combinations)                         | 中等   |  △
+78   | [子集](78_subsets)                              | 中等   |  △
 98   | [验证二叉搜索树](98_validate_binary_search_tree) | 中等   |  △
 104  | [二叉树的最大深度](104_maximum_depth_of_binary_tree) | 简单   |  △
 105  | [从前序与中序遍历序列构造二叉树](105_construct_binary_tree_from_preorder_and_inorder_traversal) | 中等   |  △
