@@ -18,4 +18,5 @@ https://leetcode-cn.com/problems/generate-parentheses/
 dp[i] = "(" + dp[j] + ")" + dp[i- j - 1] , j = 0, 1, ..., i - 1
 ```
 
-另外, 关于闭合数的解法可以阅读[官方题解](https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-leetcode/)中的解析
+另外, 关于闭合数的解法可以阅读[官方题解](https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-leetcode/)中的解析,
+究其根本还是利用了 `dp[i] = "(" + dp[j] + ")" + dp[i- j - 1]` 这一公式, 通过递归实现算法.
