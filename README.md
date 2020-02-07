@@ -71,6 +71,7 @@ ID   | 题目                                           |  难度  |  标记
 46   | [全排列](46_permutations)                       | 中等   |  △
 47   | [全排列 II](47_permutations_2)                  | 中等   |  △
 50   | [Pow(x, n)](50_powx_n)                         | 中等   |  △
+51   | [N皇后](51_n_queens)                               | 困难   |  △
 77   | [组合](77_combinations)                         | 中等   |  △
 78   | [子集](78_subsets)                              | 中等   |  △
 98   | [验证二叉搜索树](98_validate_binary_search_tree) | 中等   |  △
