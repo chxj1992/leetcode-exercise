@@ -76,6 +76,7 @@ ID   | 题目                                           |  难度  |  标记
 77   | [组合](77_combinations)                         | 中等   |  △
 78   | [子集](78_subsets)                              | 中等   |  △
 98   | [验证二叉搜索树](98_validate_binary_search_tree) | 中等   |  △
+102  | [二叉树的层次遍历](102_binary_tree_level_order_traversal) | 中等   |  △
 104  | [二叉树的最大深度](104_maximum_depth_of_binary_tree) | 简单   |  △
 105  | [从前序与中序遍历序列构造二叉树](105_construct_binary_tree_from_preorder_and_inorder_traversal) | 中等   |  △
 111  | [二叉树的最小深度](111_minimum_depth_of_binary_tree) | 简单   |  △
@@ -83,12 +84,16 @@ ID   | 题目                                           |  难度  |  标记
 226  | [翻转二叉树](226_invert_binary_tree)             | 简单   |  △
 263  | [二叉树的最近公共祖先](236_lowest_common_ancestor_of_a_binary_tree) | 中等   |  △
 297  | [二叉树的序列化与反序列化](297_serialize_and_deserialize_binary_tree) | 简单   |  △
+515  | [在每个树行中找最大值](515_find_largest_value_in_each_tree_row) | 中等   |  △
 
 
 ### DFS 和 BFS
 
-ID   | 题目                                           |  难度  |  标记 
---   |--                                              |--     |--
-22   | [括号生成](22_generate_parentheses)             | 中等   |  △
+ID   | 题目                                              |  难度  |  标记 
+--   |--                                                 |--     |--
+22   | [括号生成](22_generate_parentheses)                | 中等   |  △
 102  | [二叉树的层次遍历](102_binary_tree_level_order_traversal) | 中等   |  △
-433  | [最小基因变化](433_minimum_genetic_mutation)     | 中等   |  △
+111  | [二叉树的最小深度](111_minimum_depth_of_binary_tree) | 简单   |  △
+104  | [二叉树的最大深度](104_maximum_depth_of_binary_tree) | 简单   |  △
+433  | [最小基因变化](433_minimum_genetic_mutation)        | 中等   |  △
+515  | [在每个树行中找最大值](515_find_largest_value_in_each_tree_row) | 中等   |  △

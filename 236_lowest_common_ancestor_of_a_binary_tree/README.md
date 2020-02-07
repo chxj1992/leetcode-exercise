@@ -7,5 +7,4 @@ https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 * [递归记录祖先列表](_1.py) 
 * [递归计数](_2.py) 
-* [迭代计数](_3.py) 
 
