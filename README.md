@@ -89,4 +89,6 @@ ID   | 题目                                           |  难度  |  标记
 
 ID   | 题目                                           |  难度  |  标记 
 --   |--                                              |--     |--
+22   | [括号生成](22_generate_parentheses)             | 中等   |  △
 102  | [二叉树的层次遍历](102_binary_tree_level_order_traversal) | 中等   |  △
+433  | [最小基因变化](433_minimum_genetic_mutation)     | 中等   |  △
