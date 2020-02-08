@@ -89,11 +89,12 @@ ID   | 题目                                           |  难度  |  标记
 
 ### DFS 和 BFS
 
-ID   | 题目                                              |  难度  |  标记 
---   |--                                                 |--     |--
-22   | [括号生成](22_generate_parentheses)                | 中等   |  △
+ID   | 题目                                               |  难度  |  标记 
+--   |--                                                  |--     |--
+22   | [括号生成](22_generate_parentheses)                 | 中等   |  △
 102  | [二叉树的层次遍历](102_binary_tree_level_order_traversal) | 中等   |  △
-111  | [二叉树的最小深度](111_minimum_depth_of_binary_tree) | 简单   |  △
 104  | [二叉树的最大深度](104_maximum_depth_of_binary_tree) | 简单   |  △
-433  | [最小基因变化](433_minimum_genetic_mutation)        | 中等   |  △
+111  | [二叉树的最小深度](111_minimum_depth_of_binary_tree) | 简单   |  △
+127  | [单词接龙](127_word_ladder)                         | 简单   |  △
+433  | [最小基因变化](433_minimum_genetic_mutation)         | 中等   |  △
 515  | [在每个树行中找最大值](515_find_largest_value_in_each_tree_row) | 中等   |  △
