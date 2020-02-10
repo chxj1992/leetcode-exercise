@@ -5,7 +5,7 @@ https://leetcode-cn.com/problems/assign-cookies/
 
 #### 解法  
 
-* [贪心法](_1.py)
+* [贪心算法](_1.py)
 
 
 #### 分析 

@@ -107,8 +107,10 @@ ID   | 题目                                               |  难度  |  标记
 
 ID   | 题目                                               |  难度  |  标记 
 --   |--                                                  |--     |--
+45   | [跳跃游戏 II](45_jump_game_2)                       | 困难   |  △
+55   | [跳跃游戏](55_jump_game)                            | 中等   |  △
 122  | [买卖股票的最佳时机 II](122_best_time_to_buy_and_sell_stock_2) | 简单   |  △
 322  | [零钱兑换](322_coin_change)                         | 中等   |  △
-860  | [柠檬水找零](860_lemonade_change)                   | 简单   |  △
 455  | [分发饼干](455_assign_cookies)                      | 简单   |  △
+860  | [柠檬水找零](860_lemonade_change)                   | 简单   |  △
 874  | [模拟行走机器人](874_walking_robot_simulation)       | 中等   |  △
