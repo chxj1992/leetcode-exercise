@@ -85,7 +85,7 @@ ID   | 题目                                           |  难度  |  标记
 263  | [二叉树的最近公共祖先](236_lowest_common_ancestor_of_a_binary_tree) | 中等   |  △
 297  | [二叉树的序列化与反序列化](297_serialize_and_deserialize_binary_tree) | 简单   |  △
 515  | [在每个树行中找最大值](515_find_largest_value_in_each_tree_row) | 中等   |  △
-update
+
 
 ### DFS 和 BFS
 
@@ -95,9 +95,16 @@ ID   | 题目                                               |  难度  |  标记
 102  | [二叉树的层次遍历](102_binary_tree_level_order_traversal) | 中等   |  △
 104  | [二叉树的最大深度](104_maximum_depth_of_binary_tree) | 简单   |  △
 111  | [二叉树的最小深度](111_minimum_depth_of_binary_tree) | 简单   |  △
-126  | [单词接龙 II](126_word_ladder_2)                     kupdaup| 简单   |  △
-127  | [单词接龙](127_word_ladder)                         | 简单   |  △
-200  | [岛屿数量](200_number_of_islands)                   | 简单   |  △
+126  | [单词接龙 II](126_word_ladder_2)                    | 困难   |  △
+127  | [单词接龙](127_word_ladder)                         | 中等   |  △
+200  | [岛屿数量](200_number_of_islands)                   | 中等   |  △
 433  | [最小基因变化](433_minimum_genetic_mutation)         | 中等   |  △
 515  | [在每个树行中找最大值](515_find_largest_value_in_each_tree_row) | 中等   |  △
 529  | [扫雷游戏](529_minesweeper)                          | 中等   |  △
+
+
+### 贪心算法和动态规划
+
+ID   | 题目                                               |  难度  |  标记 
+--   |--                                                  |--     |--
+322  | [零钱兑换](322_coin_change)                         | 中等   |  △
