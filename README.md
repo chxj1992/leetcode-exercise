@@ -111,3 +111,4 @@ ID   | 题目                                               |  难度  |  标记
 322  | [零钱兑换](322_coin_change)                         | 中等   |  △
 860  | [柠檬水找零](860_lemonade_change)                   | 简单   |  △
 455  | [分发饼干](455_assign_cookies)                      | 简单   |  △
+874  | [模拟行走机器人](874_walking_robot_simulation)       | 中等   |  △
