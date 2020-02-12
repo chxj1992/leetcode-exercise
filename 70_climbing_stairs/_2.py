@@ -21,9 +21,9 @@ class Test(unittest.TestCase):
 
     def test(self):
         s = Solution()
-        self.assertEqual(s.climbStairs(2), 2)
-        self.assertEqual(s.climbStairs(3), 3)
-        self.assertEqual(s.climbStairs(100), 573147844013817084101)
+        self.assertEqual(2, s.climbStairs(2))
+        self.assertEqual(3, s.climbStairs(3))
+        self.assertEqual(573147844013817084101, s.climbStairs(100))
 
 
 if __name__ == '__main__':
