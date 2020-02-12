@@ -120,6 +120,7 @@ ID   | 题目                                               |  难度  |  标记
 
 ID   | 题目                                                |  难度  |  标记 
 --   |--                                                   |--     |--
+33   | [搜索旋转排序数组](33_search_in_rotated_sorted_array) | 简单   |  △
 69   | [x 的平方根](69_sqrtx)                               | 简单   |  △
 153  | [寻找旋转排序数组中的最小值](153_find_minimum_in_rotated_sorted_array) | 中等   |  △
 367  | [有效的完全平方数](367_valid_perfect_square)          | 简单   |  △
