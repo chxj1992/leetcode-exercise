@@ -144,9 +144,11 @@ ID   | 题目                                                |  难度  |  标�
 70   | [爬楼梯](70_climbing_stairs)                         | 简单   |  △
 322  | [零钱兑换](322_coin_change)                          | 中等   |  △
 120  | [三角形最小路径和](120_triangle)                       | 中等   |  △
-123  | [买卖股票的最佳时机 III](123_best_time_to_buy_and_sell_stock_3) | 中等   |  △
+123  | [买卖股票的最佳时机 III](123_best_time_to_buy_and_sell_stock_3) | 困难   |  △
 152  | [乘积最大子序列](152_maximum_product_subarray)        | 中等   |  △
+188  | [买卖股票的最佳时机 IV](188_best_time_to_buy_and_sell_stock_iv)| 困难   |  △
 198  | [打家劫舍](198_house_robber)                         | 简单   |  △
 213  | [打家劫舍 II](213_house_robber_2)                    | 中等   |  △
 309  | [最佳买卖股票时机含冷冻期](309_best_time_to_buy_and_sell_stock_with_cooldown) | 中等   |  △
+714  | [买卖股票的最佳时机含手续费](714_best_time_to_buy_and_sell_stock_with_transaction_fee) | 中等   |  △
 1143 | [最长公共子序列](1143_longest_common_subsequence)     | 中等   |  △
