@@ -6,6 +6,7 @@ https://leetcode-cn.com/problems/maximum-subarray/
 #### 解法  
 
 * [Kadane算法](_1.py)
+* [贪心算法](_2.py)
 
 
 #### 分析 
@@ -20,3 +21,7 @@ https://leetcode-cn.com/problems/maximum-subarray/
 如果 max_here > 0，则说明 max_here 对截止当前元素的结果有增益效果，则 max_here 保留并加上当前遍历数字
 如果 max_here <= 0，则说明 max_here 对截止当前元素的结果无增益效果，需要舍弃，则将 max_here 直接更新为当前遍历数字
 
+
+2. 贪心算法
+
+迭代求和, 将问题转化为求最大差问题. 可结合 [121. 买卖股票的最佳时机](../121_best_time_to_buy_and_sell_stock) 一起思考.
