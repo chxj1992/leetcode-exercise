@@ -156,6 +156,7 @@ ID   | 题目                                                |  难度  |  标�
 309  | [最佳买卖股票时机含冷冻期](309_best_time_to_buy_and_sell_stock_with_cooldown) | 中等   |  △
 714  | [买卖股票的最佳时机含手续费](714_best_time_to_buy_and_sell_stock_with_transaction_fee) | 中等   |  △
 1143 | [最长公共子序列](1143_longest_common_subsequence)     | 中等   |  △
+     | [面试题 08.01. 三步问题](three_steps_problem_lcci)            | 简单   |  
 
 
 ### 字典树和并查集
