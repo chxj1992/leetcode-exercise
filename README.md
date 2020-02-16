@@ -43,6 +43,7 @@ ID   | 题目                                           |  难度  |  标记
 155  |  [最小栈](155_min_stack)                        | 简单   |  △
 239  |  [滑动窗口最大值](239_sliding_window_maximum)    | 困难   |  △
 641  |  [设计循环双端队列](641_design_circular_deque)    | 中等   |  △
+5343 |  [多次求和构造目标数组](5343_construct_target_array_with_multiple_sums) | 困难   |  
 
 
 ### 哈希表
