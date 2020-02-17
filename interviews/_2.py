@@ -10,6 +10,10 @@ class TreeNode:
 
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
+        """
+        二叉树的直径
+        https://leetcode-cn.com/interview/history/1/SW50ZXJ2aWV3U2Vzc2lvbk5vZGU6OTIzMTU%3D/diameter-of-binary-tree/
+        """
         diameter = 0
 
         def max_depth(node: TreeNode) -> int:

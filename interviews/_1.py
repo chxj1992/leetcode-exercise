@@ -10,6 +10,10 @@ class TreeNode:
 
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
+        """
+        路径总和 III
+        https://leetcode-cn.com/interview/history/1/SW50ZXJ2aWV3U2Vzc2lvbk5vZGU6OTIzMTU%3D/path-sum-iii/
+        """
         def recursion(node: TreeNode, s: int, started: bool):
             count = 0
             if node is None:

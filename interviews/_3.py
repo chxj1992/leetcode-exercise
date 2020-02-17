@@ -5,6 +5,10 @@ from typing import List
 
 class Solution:
     def numSpecialEquivGroups(self, A: List[str]) -> int:
+        """
+        特殊等价字符串组
+        https://leetcode-cn.com/interview/history/1/SW50ZXJ2aWV3U2Vzc2lvbk5vZGU6OTIzMTU%3D/groups-of-special-equivalent-strings/
+        """
         strset = set()
 
         @functools.lru_cache(maxsize=1000)
