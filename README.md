@@ -13,7 +13,10 @@ ID   | 题目                                         |  难度  |  标记
 15   | [三数之和](15_3sum)                           | 中等   |  △
 26   | [删除排序数组中的重复项](26_remove_duplicates_from_sorted_array) | 简单   |  △
 27   | [移除元素](27_remove_element)                 | 简单   |  
+28   | [实现 strStr()](28_implement_strstr)         | 简单   |  △
+38   | [外观数列](38_count_and_say)                  | 简单   |  
 53   | [最大子序和](53_maximum_subarray)             | 中等   |  △
+58   | [最后一个单词的长度](58_length_of_last_word)    | 简单   |  
 66   | [加一](66_plus_one)                           | 简单   |  △
 70   | [爬楼梯](70_climbing_stairs)                  | 简单   |  △
 88   | [合并两个有序数组](88_merge_sorted_array)       | 简单   |  △
@@ -134,6 +137,7 @@ ID   | 题目                                               |  难度  |  标记
 ID   | 题目                                                |  难度  |  标记 
 --   |--                                                   |--     |--
 33   | [搜索旋转排序数组](33_search_in_rotated_sorted_array) | 中等   |  △
+35   | [搜索插入位置](35_search_insert_position)             | 简单   |  
 69   | [x 的平方根](69_sqrtx)                               | 简单   |  △
 74   | [搜索二维矩阵](74_search_a_2d_matrix)                | 中等   |  △
 153  | [寻找旋转排序数组中的最小值](153_find_minimum_in_rotated_sorted_array) | 中等   |  △
