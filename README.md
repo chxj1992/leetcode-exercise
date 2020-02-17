@@ -9,6 +9,7 @@ ID   | 题目                                         |  难度  |  标记
 1    | [两数之和](1_two_sum)                          | 简单   |  △
 11   | [称最多水的容器](11_container_with_most_water) | 中等   |  △
 13   | [罗马数字转整数](13_roman_to_integer)          | 简单   |  
+14   | [最长公共前缀](14_longest_common_prefix)       | 简单   |  
 15   | [三数之和](15_3sum)                           | 中等   |  △
 26   | [删除排序数组中的重复项](26_remove_duplicates_from_sorted_array) | 简单   |  △
 53   | [最大子序和](53_maximum_subarray)             | 中等   |  △
