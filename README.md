@@ -12,6 +12,7 @@ ID   | 题目                                         |  难度  |  标记
 14   | [最长公共前缀](14_longest_common_prefix)       | 简单   |  
 15   | [三数之和](15_3sum)                           | 中等   |  △
 26   | [删除排序数组中的重复项](26_remove_duplicates_from_sorted_array) | 简单   |  △
+27   | [移除元素](27_remove_element)                 | 简单   |  
 53   | [最大子序和](53_maximum_subarray)             | 中等   |  △
 66   | [加一](66_plus_one)                           | 简单   |  △
 70   | [爬楼梯](70_climbing_stairs)                  | 简单   |  △
