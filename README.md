@@ -34,6 +34,7 @@ ID   | 题目                                           |  难度  |  标记
 21   |  [合并两个有序链表](21_merge_two_sorted_lists)    | 简单   |  △
 24   |  [两两交换链表中的节点](24_swap_nodes_in_pairs)   | 简单   |  △
 25   |  [K 个一组翻转链表](25_reverse_nodes_in_k_group) | 困难   |  △
+83   |  [删除排序链表中的重复元素](83_remove_duplicates_from_sorted_list) | 简单   | 
 141  |  [环形链表](141_linked_list_cycle)              | 简单   |  △
 142  |  [环形链表 II](142_linked_list_cycle_2)         | 中等   |  △
 206  |  [反转链表](206_reverse_linked_list)            | 简单   |  △
@@ -66,6 +67,8 @@ ID   | 题目                                           |  难度  |  标记
 ID   | 题目                                           |  难度  |  标记 
 --   |--                                              |--     |--
 94   | [二叉树的中序遍历](94_binary_tree_inorder_traversal)  | 中等   |  △
+107  | [二叉树的层次遍历 II](107_binary_tree_level_order_traversal_ii)  | 简单   |  
+108  | [将有序数组转换为二叉搜索树](108_convert_sorted_array_to_binary_search_tree) | 简单   |  
 144  | [二叉树的前序遍历](144_binary_tree_preorder_traversal) | 中等   |  △
 145  | [二叉树的后序遍历](145_binary_tree_postorder_traversal) | 困难   |  △
 429  | [N叉树的层序遍历](429_n_ary_tree_level_order_traversal) | 中等   |  △
@@ -170,4 +173,5 @@ ID   | 题目                                                |  难度  |  标�
 
 ID   | 题目                                                |  难度  |  标记 
 --   |--                                                   |--     |--
-208  | [实现 Trie (前缀树)](208_implement_trie_prefix_tree)  | 中等   |  △
+208  | [实现 Trie (前缀树)](208_implement_trie_prefix_tree) | 中等   |  △
+212  | [单词搜索 II](212_word_search_ii)                    | 困难   |  △
