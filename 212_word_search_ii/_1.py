@@ -53,7 +53,31 @@ class Trie:
 
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
-        pass
+
+        def backtrack(x: int, y: int, prefix: str):
+            if 0 <= y < len(board) and 0 <= x < len(board[0]):
+                if board[y][x] == '#':
+                    return
+                tmp = board[y][x]
+                prefix += tmp
+                board[y][x] = '#'
+                if trie.search(prefix):
+                    res.add(prefix)
+                if trie.startsWith(prefix):
+                    for (_x, _y) in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                        backtrack(x + _x, y + _y, prefix)
+                board[y][x] = tmp
+
+        res = set()
+        trie = Trie()
+        for word in words:
+            trie.insert(word)
+
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                backtrack(j, i, "")
+
+        return list(res)
 
 
 class Test(unittest.TestCase):
@@ -68,7 +92,7 @@ class Test(unittest.TestCase):
             ['i', 'h', 'k', 'r'],
             ['i', 'f', 'l', 'v']
         ]
-        self.assertEqual(["eat", "oath"], s.findWords(board, words))
+        self.assertEqual(sorted(["eat", "oath"]), sorted(s.findWords(board, words)))
 
 
 if __name__ == '__main__':
