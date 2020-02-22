@@ -7,6 +7,7 @@ https://leetcode-cn.com/problems/generate-parentheses/
 
 * [动态规划](_1.py)
 * [闭合数(递归)](_2.py)
+* [回溯法](_3.py)
 
 
 #### 分析 
