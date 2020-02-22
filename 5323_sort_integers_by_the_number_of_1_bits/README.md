@@ -1,0 +1,8 @@
+## 5323. 根据数字二进制下 1 的数目排序
+
+https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/
+
+
+#### 解法  
+
+[分治法](_1.py)
