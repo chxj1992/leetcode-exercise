@@ -60,6 +60,7 @@ ID   | 题目                                           |  难度  |  标记
 ID   | 题目                                           |  难度  |  标记 
 --   |--                                              |--     |--
 1    | [两数之和](1_two_sum)                           | 简单   |  △
+36   | [有效的数独](36_valid_sudoku)                   | 中等   |  △
 49   |  [字母异位词分组](49_group_anagrams)             | 中等   |  △
 202  |  [快乐数](202_happy_number)                     | 简单   |  
 205  |  [同构字符串](205_isomorphic_strings)            | 简单   |  
@@ -114,12 +115,13 @@ ID   | 题目                                           |  难度  |  标记
 ID   | 题目                                               |  难度  |  标记 
 --   |--                                                  |--     |--
 22   | [括号生成](22_generate_parentheses)                 | 中等   |  △
+37   | [解数独](37_sudoku_solver)                          | 困难   |  △
 102  | [二叉树的层次遍历](102_binary_tree_level_order_traversal) | 中等   |  △
 104  | [二叉树的最大深度](104_maximum_depth_of_binary_tree) | 简单   |  △
 111  | [二叉树的最小深度](111_minimum_depth_of_binary_tree) | 简单   |  △
 126  | [单词接龙 II](126_word_ladder_2)                    | 困难   |  △
 127  | [单词接龙](127_word_ladder)                         | 中等   |  △
-130  | [被围绕的区域](130_surrounded_regions)                | 中等   |  △
+130  | [被围绕的区域](130_surrounded_regions)               | 中等   |  △
 200  | [岛屿数量](200_number_of_islands)                   | 中等   |  △
 433  | [最小基因变化](433_minimum_genetic_mutation)         | 中等   |  △
 515  | [在每个树行中找最大值](515_find_largest_value_in_each_tree_row) | 中等   |  △
