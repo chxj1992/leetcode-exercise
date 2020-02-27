@@ -3,7 +3,10 @@ from typing import List
 
 
 class TweetCounts:
-
+    """
+    推文计数
+    https://leetcode-cn.com/problems/tweet-counts-per-frequency/
+    """
     def __init__(self):
         self.time_map = {
             'minute': 60,

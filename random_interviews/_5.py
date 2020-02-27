@@ -10,6 +10,10 @@ class Node:
 
 class Solution:
     def preorder(self, root: Node) -> List[int]:
+        """
+        N叉树的前序遍历
+        https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
+        """
         stack = []
         res = []
         while root is not None or stack:

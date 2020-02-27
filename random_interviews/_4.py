@@ -4,6 +4,10 @@ from typing import List
 
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
+        """
+        种花问题
+        https://leetcode-cn.com/problems/can-place-flowers/
+        """
         l = len(flowerbed)
 
         def recursion(start: int, _n: int):
