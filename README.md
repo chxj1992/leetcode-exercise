@@ -8,6 +8,7 @@
 ID   | 题目                                         |  难度  |  标记 
 --   |--                                           |--     |--
 1    | [两数之和](1_two_sum)                          | 简单   |  △
+3    | [无重复字符的最长子串](3_longest_substring_without_repeating_characters)| 中等   |  
 11   | [称最多水的容器](11_container_with_most_water) | 中等   |  △
 13   | [罗马数字转整数](13_roman_to_integer)          | 简单   |  
 14   | [最长公共前缀](14_longest_common_prefix)       | 简单   |  
@@ -32,27 +33,28 @@ ID   | 题目                                         |  难度  |  标记
 
 ID   | 题目                                           |  难度  |  标记 
 --   |--                                              |--     |--
-21   |  [合并两个有序链表](21_merge_two_sorted_lists)    | 简单   |  △
-24   |  [两两交换链表中的节点](24_swap_nodes_in_pairs)   | 简单   |  △
-25   |  [K 个一组翻转链表](25_reverse_nodes_in_k_group) | 困难   |  △
-83   |  [删除排序链表中的重复元素](83_remove_duplicates_from_sorted_list) | 简单   | 
-141  |  [环形链表](141_linked_list_cycle)              | 简单   |  △
-142  |  [环形链表 II](142_linked_list_cycle_2)         | 中等   |  △
-203  |  [移除链表元素](203_remove_linked_list_elements) | 简单   |  
-206  |  [反转链表](206_reverse_linked_list)            | 简单   |  △
+2    | [两数相加](2_add_two_numbers)                   | 中等   |  
+21   | [合并两个有序链表](21_merge_two_sorted_lists)    | 简单   |  △
+24   | [两两交换链表中的节点](24_swap_nodes_in_pairs)    | 简单   |  △
+25   | [K 个一组翻转链表](25_reverse_nodes_in_k_group)  | 困难   |  △
+83   | [删除排序链表中的重复元素](83_remove_duplicates_from_sorted_list) | 简单   | 
+141  | [环形链表](141_linked_list_cycle)               | 简单   |  △
+142  | [环形链表 II](142_linked_list_cycle_2)          | 中等   |  △
+203  | [移除链表元素](203_remove_linked_list_elements)  | 简单   |  
+206  | [反转链表](206_reverse_linked_list)             | 简单   |  △
  
  
 ### 栈和队列
 
 ID   | 题目                                           |  难度  |  标记 
 --   |--                                              |--     |--
-20   |  [有效的括号](20_valid_parentheses)              | 简单   |  △
-42   |  [接雨水](42_trapping_rain_water)               | 困难   |  △
-84   |  [柱状图中最大的矩形](84_largest_rectangle_in_histogram)   | 困难   |  △
-155  |  [最小栈](155_min_stack)                        | 简单   |  △
-239  |  [滑动窗口最大值](239_sliding_window_maximum)    | 困难   |  △
-641  |  [设计循环双端队列](641_design_circular_deque)    | 中等   |  △
-5343 |  [多次求和构造目标数组](5343_construct_target_array_with_multiple_sums) | 困难   |  
+20   | [有效的括号](20_valid_parentheses)              | 简单   |  △
+42   | [接雨水](42_trapping_rain_water)               | 困难   |  △
+84   | [柱状图中最大的矩形](84_largest_rectangle_in_histogram)   | 困难   |  △
+155  | [最小栈](155_min_stack)                        | 简单   |  △
+239  | [滑动窗口最大值](239_sliding_window_maximum)    | 困难   |  △
+641  | [设计循环双端队列](641_design_circular_deque)    | 中等   |  △
+5343 | [多次求和构造目标数组](5343_construct_target_array_with_multiple_sums) | 困难   |  
 
 
 ### 哈希表
@@ -61,10 +63,10 @@ ID   | 题目                                           |  难度  |  标记
 --   |--                                              |--     |--
 1    | [两数之和](1_two_sum)                           | 简单   |  △
 36   | [有效的数独](36_valid_sudoku)                   | 中等   |  △
-49   |  [字母异位词分组](49_group_anagrams)             | 中等   |  △
-202  |  [快乐数](202_happy_number)                     | 简单   |  
-205  |  [同构字符串](205_isomorphic_strings)            | 简单   |  
-242  |  [有效的字母异位词](242_valid_anagram)           | 简单   |  △
+49   | [字母异位词分组](49_group_anagrams)             | 中等   |  △
+202  | [快乐数](202_happy_number)                     | 简单   |  
+205  | [同构字符串](205_isomorphic_strings)            | 简单   |  
+242  | [有效的字母异位词](242_valid_anagram)           | 简单   |  △
 
 
 ### 树
