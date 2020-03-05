@@ -9,7 +9,7 @@ ID   | 题目                                         |  难度  |  标记
 --   |--                                           |--     |--
 1    | [两数之和](1_two_sum)                          | 简单   |  △
 3    | [无重复字符的最长子串](3_longest_substring_without_repeating_characters)| 中等   |  
-11   | [称最多水的容器](11_container_with_most_water) | 中等   |  △
+11   | [盛最多水的容器](11_container_with_most_water) | 中等   |  △
 13   | [罗马数字转整数](13_roman_to_integer)          | 简单   |  
 14   | [最长公共前缀](14_longest_common_prefix)       | 简单   |  
 15   | [三数之和](15_3sum)                           | 中等   |  △
