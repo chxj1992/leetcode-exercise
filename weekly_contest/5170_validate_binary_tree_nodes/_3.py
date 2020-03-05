@@ -4,13 +4,21 @@ from typing import List
 
 class Solution:
     def validateBinaryTreeNodes(self, n: int, leftChild: List[int], rightChild: List[int]) -> bool:
-        in_degree_set = set()
-        for i in range(n):
-            in_degree = [x for x in [leftChild[i], rightChild[i]] if x != -1]
-            if (i != 0 and i not in in_degree_set) or 0 in in_degree or in_degree_set.intersection(in_degree):
-                return False
-            in_degree_set = in_degree_set.union(in_degree)
-        return True
+        queue = [0]
+        visited = set()
+        while queue:
+            next_level = []
+            while queue:
+                i = queue.pop()
+                if i in visited:
+                    return False
+                visited.add(i)
+                if leftChild[i] != -1:
+                    next_level.append(leftChild[i])
+                if rightChild[i] != -1:
+                    next_level.append(rightChild[i])
+            queue = next_level
+        return len(visited) == n
 
 
 class Test(unittest.TestCase):
