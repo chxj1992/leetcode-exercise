@@ -7,7 +7,6 @@ class Solution:
         """
         Time: O(n)
         Space: O(n)
-        Timeout!
         """
         words_map = {}
         for word in strs:

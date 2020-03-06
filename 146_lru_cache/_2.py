@@ -1,25 +1,72 @@
 import unittest
-from collections import OrderedDict
+
+
+class LinkNode:
+    def __init__(self, key: int, val: int):
+        self.key = key
+        self.val = val
+        self.prev = None
+        self.next = None
 
 
 class LRUCache:
 
     def __init__(self, capacity: int):
-        self.capacity = capacity
-        self.cache = OrderedDict()
+        self.items = {}
+        self.cap = capacity
+        self.head = None
+        self.tail = None
+        self.size = 0
 
     def get(self, key: int) -> int:
-        if key in self.cache:
-            self.cache.move_to_end(key)
-            return self.cache[key]
-        else:
+        if key not in self.items:
             return -1
+        node = self.items[key]
+        if self.head is not node:
+            self._remove_node(key)
+            self._add_first(node)
+        return node.val
 
     def put(self, key: int, value: int) -> None:
-        self.cache[key] = value
-        self.cache.move_to_end(key)
-        if len(self.cache) > self.capacity:
-            self.cache.popitem(last=False)
+        if key in self.items:
+            node = self.items[key]
+            node.val = value
+            if self.head is not node:
+                self._remove_node(key)
+                self._add_first(node)
+        else:
+            node = LinkNode(key, value)
+            self._add_first(node)
+            self._clear()
+
+    def _add_first(self, node: LinkNode):
+        self.size += 1
+        self.items[node.key] = node
+        if self.head is None:
+            self.head = node
+            self.tail = node
+        else:
+            self.head.prev = node
+            node.next = self.head
+            self.head = node
+
+    def _remove_node(self, key):
+        node = self.items[key]
+        if node.prev is not None:
+            node.prev.next = node.next
+        if node.next is not None:
+            node.next.prev = node.prev
+        elif node.prev is not None:
+            self.tail = node.prev
+
+        self.size -= 1
+        del self.items[key]
+
+    def _clear(self):
+        while self.size > self.cap:
+            curr_tail = self.tail
+            self.tail = self.tail.prev
+            self._remove_node(curr_tail.key)
 
 
 class Test(unittest.TestCase):

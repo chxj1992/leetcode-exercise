@@ -5,5 +5,5 @@ https://leetcode-cn.com/problems/lru-cache/
 
 #### 解法  
 
-* [利用 OrderedDict 实现](_1.py)
-
+* [OrderedDict](_1.py)
+* [哈希表+双向链表](_2.py)
