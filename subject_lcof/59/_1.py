@@ -1,9 +1,6 @@
 import unittest
 
 
-# Definition for singly-linked list.
-
-
 class MaxQueue:
 
     def __init__(self):
