@@ -194,3 +194,11 @@ ID   | 题目                                                |  难度  |  标�
 190  | [颠倒二进制位](190_reverse_bits)                      | 简单   |  
 191  | [位1的个数](191_number_of_1_bits)                    | 简单   |  
 
+
+
+### 专题
+
+* [剑指 Offer](subject_lcof)
+* [程序员面试宝典](subject_lcci)
+* [LeetCode 周赛](weekly_contest)
+* [模拟面试](random_interviews)
