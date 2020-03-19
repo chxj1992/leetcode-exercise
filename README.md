@@ -25,7 +25,8 @@ ID   | 题目                                         |  难度  |  标记
 121  | [买卖股票的最佳时机](121_best_time_to_buy_and_sell_stock)  | 简单   |  △
 146  | [LRU缓存机制](146_lru_cache)                  | 中等   |  △
 189  | [旋转数组](189_rotate_array)                    | 简单   |  △
-283  | [移动零](283_move_zeroes)                     | 简单   |  △
+283  | [移动零](283_move_zeroes)                      | 简单   |  △
+1103 | [分糖果 II](1103_distribute_candies_to_people) | 简单   |  
 5341 | [最后 K 个数的乘积](5341_product_of_the_last_k_numbers) | 中等   |  
 
 
@@ -128,6 +129,7 @@ ID   | 题目                                               |  难度  |  标记
 433  | [最小基因变化](433_minimum_genetic_mutation)         | 中等   |  △
 515  | [在每个树行中找最大值](515_find_largest_value_in_each_tree_row) | 中等   |  △
 529  | [扫雷游戏](529_minesweeper)                          | 中等   |  △
+994  | [腐烂的橘子](994_rotting_oranges)                    | 中等   |  
 
 
 ### 贪心算法
