@@ -9,6 +9,7 @@ ID   | 题目                                         |  难度  |  标记
 --   |--                                           |--     |--
 1    | [两数之和](1_two_sum)                          | 简单   |  △
 3    | [无重复字符的最长子串](3_longest_substring_without_repeating_characters)| 中等   |  
+5    | [最长回文子串](5_longest_palindromic_substring)| 中等   |  △
 11   | [盛最多水的容器](11_container_with_most_water) | 中等   |  △
 13   | [罗马数字转整数](13_roman_to_integer)          | 简单   |  
 14   | [最长公共前缀](14_longest_common_prefix)       | 简单   |  
@@ -23,6 +24,7 @@ ID   | 题目                                         |  难度  |  标记
 70   | [爬楼梯](70_climbing_stairs)                  | 简单   |  △
 88   | [合并两个有序数组](88_merge_sorted_array)       | 简单   |  △
 121  | [买卖股票的最佳时机](121_best_time_to_buy_and_sell_stock)  | 简单   |  △
+125  | [验证回文串](125_valid_palindrome)             | 简单   |  
 146  | [LRU缓存机制](146_lru_cache)                  | 中等   |  △
 189  | [旋转数组](189_rotate_array)                    | 简单   |  △
 283  | [移动零](283_move_zeroes)                      | 简单   |  △
@@ -43,6 +45,7 @@ ID   | 题目                                           |  难度  |  标记
 142  | [环形链表 II](142_linked_list_cycle_2)          | 中等   |  △
 203  | [移除链表元素](203_remove_linked_list_elements)  | 简单   |  
 206  | [反转链表](206_reverse_linked_list)             | 简单   |  △
+234  | [回文链表](234_palindrome_linked_list)          | 简单   |  
  
  
 ### 栈和队列
@@ -68,6 +71,7 @@ ID   | 题目                                           |  难度  |  标记
 202  | [快乐数](202_happy_number)                     | 简单   |  
 205  | [同构字符串](205_isomorphic_strings)            | 简单   |  
 242  | [有效的字母异位词](242_valid_anagram)           | 简单   |  △
+409  | [最长回文串](409_longest_palindrome)            | 简单   |  
 
 
 ### 树
