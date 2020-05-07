@@ -84,7 +84,8 @@ ID   | 题目                                           |  难度  |  标记
 144  | [二叉树的前序遍历](144_binary_tree_preorder_traversal) | 中等   |  △
 145  | [二叉树的后序遍历](145_binary_tree_postorder_traversal) | 困难   |  △
 429  | [N叉树的层序遍历](429_n_ary_tree_level_order_traversal) | 中等   |  △
-589  | [N叉树的前序遍历](589_n_ary_tree_preorder_traversal) | 简单   |  △
+572  | [另一个树的子树](572_subtree_of_another_tree)          | 简单   |  
+589  | [N叉树的前序遍历](589_n_ary_tree_preorder_traversal)  | 简单   |  △
 590  | [N叉树的后序遍历](590_n_ary_tree_postorder_traversal) | 简单   |  △
 
 
