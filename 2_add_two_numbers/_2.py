@@ -9,26 +9,22 @@ class ListNode:
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        def to_num(l: ListNode) -> int:
-            total = 0
-            i = 0
-            while l:
-                total += l.val * (10 ** i)
-                l = l.next
-                i += 1
-
-            return total
-
-        def to_list(n: int) -> ListNode:
-            prev = ListNode()
-            curr = prev
-            while n > 0:
-                curr.next = ListNode(n % 10)
-                curr = curr.next
-                n //= 10
-            return ListNode() if prev.next is None else prev.next
-
-        return to_list(to_num(l1) + to_num(l2))
+        prev, incr = ListNode(), 0
+        curr = prev
+        while l1 is not None or l2 is not None:
+            val = incr
+            if l1 is not None:
+                val += l1.val
+                l1 = l1.next
+            if l2 is not None:
+                val += l2.val
+                l2 = l2.next
+            incr = 1 if val > 9 else 0
+            curr.next = ListNode(val % 10)
+            curr = curr.next
+        if incr == 1:
+            curr.next = ListNode(1)
+        return prev.next
 
 
 class Test(unittest.TestCase):

@@ -4,16 +4,14 @@ from typing import List
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        if len(prices) == 0:
-            return 0
-        prev = prices[0]
-        max_profit = 0
-        max_here = 0
-        for t in prices[1:]:
-            x = t - prev
-            prev = t
-            max_here = max_here + x if max_here > 0 else x
-            max_profit = max(max_profit, max_here)
+        low, high, max_profit = 0, 0, 0
+        for i, v in enumerate(prices[1:]):
+            if v < prices[low]:
+                low = i + 1
+                high = i + 1
+            if v > prices[high]:
+                high = i + 1
+            max_profit = max(max_profit, prices[high] - prices[low])
         return max_profit
 
 
