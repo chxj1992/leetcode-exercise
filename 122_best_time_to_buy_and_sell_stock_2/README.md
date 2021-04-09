@@ -5,7 +5,7 @@ https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 #### 解法  
 
-* [递归](_1.py)
+* [迭代](_1.py)
 
 
 #### 分析
